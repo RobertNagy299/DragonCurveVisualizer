@@ -12,7 +12,7 @@ node_t* append(node_t* head, char val)
 {
     if(head == NULL)
     {
-        head = (node_t*)malloc(sizeof(char));
+        head = (node_t*)malloc(sizeof(node_t));
         head->next = NULL;
         head->value = val;
         return head;
@@ -23,7 +23,7 @@ node_t* append(node_t* head, char val)
         {
             head = head->next;
         }
-        node_t* newnode = (node_t*)malloc(sizeof(char));
+        node_t* newnode = (node_t*)malloc(sizeof(node_t));
         newnode->value = val;
         newnode->next = NULL;
         head->next = newnode;
@@ -76,7 +76,17 @@ node_t* reverselist(node_t* original_head)
     return new;
 }
 
+void freeList(node_t* head){
 
+    node_t* tmp;
+    while (head != NULL)
+    {
+        tmp=head;
+        head=head->next;
+        free(tmp);
+    }
+    
+}
 node_t* createfractallist(node_t* head, int size)
 {
     int i = 0;
@@ -105,7 +115,8 @@ node_t* createfractallist(node_t* head, int size)
             head = append(head, inverse->value);
             inverse = inverse->next;
         }
-        
+        freeList(inverse);
+        freeList(reversed);
         i++;
     }
 
@@ -143,7 +154,7 @@ int main()
         drawfractal(head);
     }
 
-    free(head);
+    freeList(head);
     close_window();
     return 0;
 }
