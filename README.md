@@ -3,7 +3,7 @@
  <!--### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)-->
 
 <h2>Description</h2>
-Project consists of a simple C program that uses the paint.h header, linked lists, and recursion. The program starts drawing the dragon fractal on the terminal. The number of iterations can be changed in the source code.
+Project consists of a simple C program that uses the paint.h and gfx.h header files provided by my university, and my personal implementation of linked lists. The program starts drawing the dragon fractal on the terminal. The number of iterations can be changed in the source code.
 <br />
 
 
