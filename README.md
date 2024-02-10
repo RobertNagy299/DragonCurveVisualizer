@@ -39,6 +39,11 @@ Valgrind error messages: <br/> <br>
 <br />
 
 
+<h2>Conclusion and final comments</h2>
+
+I am rather disappointed by the fact that my code is so inefficient and unsafe. However, it is worth nothing that this project was more of a proof-of-concept, a challenge by an older student. 
+
+Possible issues / ideas for improvement: Perhaps I should change the function return types to 'void', and use a node_t** type as an argument, in order to avoid unneccessarily copying nodes in the memory. I also fail to free the allocated memory at a number of instances.
 <!--
  ```diff
 - text in red
