@@ -23,7 +23,7 @@ Project consists of a simple C program that uses the paint.h and gfx.h header fi
 <h2>Program walk-through:</h2>
 
 <p align="left">
-Open the folder in Visual Studio Code, open a new terminal, and enter the following command to compile the code:<pre>gcc fractal.c paint.c gfx.c -lX11 -lm -o program -Wall </pre> 
+Open the folder in Visual Studio Code (make sure that all of the files are in the same folder), open a new terminal, and enter the following command to compile the code:<pre>gcc fractal.c paint.c gfx.c -lX11 -lm -o program -Wall </pre> 
 <b>Note</b>: "program" is just an arbitrary name I chose for the compiled file, you can change it to whatever you want it to be. Just make sure that when you run the code using ./program, you run it with your own file name instead, like this: ./yourfilename<br><br>
 <img src="https://i.imgur.com/04KZCnd.png" height="80%" width="80%" alt="Linux command to compile fractal.c"/>
 <br />
