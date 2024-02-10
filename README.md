@@ -21,6 +21,7 @@ The project consists of a simple C program that uses the paint.h and gfx.h heade
 
 - <b>Debian 12 (Linux)</b>
 - <b>Visual Studio Code</b>
+- <b>Oracle VM Virtualbox</b>
 
 <h2>Program walk-through:</h2>
 
