@@ -1,6 +1,6 @@
 <h1>C - Dragon curve visualizer (NOT MEMORY SAFE)</h1>
 
- <!--### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)-->
+ ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
 The project consists of a simple C program that uses the paint.h and gfx.h header files provided by my university and my personal implementation of linked lists. The program starts drawing the dragon fractal on the terminal. The number of iterations can be changed in the source code.
@@ -28,29 +28,16 @@ Open the folder in Visual Studio Code (make sure that all of the files are in th
 <img src="https://i.imgur.com/04KZCnd.png" height="80%" width="80%" alt="Linux command to compile fractal.c"/>
 <br />
 <br />
-Run the binary:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Final picture after 10 minutes of runtime with size = 4  <br/>
+<img src="https://i.imgur.com/zJlwhLy.png"  alt="Final picture of the dragon fractal" height="100%" width="100%" />
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Valgrind error messages: <br/> <br>
+<img src="https://i.imgur.com/cqioXzG.png" height="80%" width="80%" alt="Valgrind error messages on the terminal screen"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 
 <!--
  ```diff
