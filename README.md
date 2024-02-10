@@ -1,4 +1,4 @@
-<h1>C - Dragon curve visualizer</h1>
+<h1>C - Dragon curve visualizer (NOT MEMORY SAFE)</h1>
 
  <!--### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)-->
 
